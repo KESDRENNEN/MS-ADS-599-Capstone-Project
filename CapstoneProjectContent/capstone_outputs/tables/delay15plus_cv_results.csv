@@ -1,0 +1,17 @@
+model,fold,fit_sec,train_rows_after_cap,val_rows,val_roc_auc,val_pr_auc,best_f1_threshold,oof_precision_at_best_f1,oof_recall_at_best_f1,oof_f1_at_best_f1
+DummyPrior,1,0.01,350000.0,174413,0.5,0.2875,,,,
+DummyPrior,2,0.01,350000.0,172905,0.5,0.3473,,,,
+DummyPrior,3,0.01,350000.0,171018,0.5,0.1965,,,,
+DummyPrior,OOF_COMBINED,,,518336,0.4502,0.2564,0.2419,0.2774,1.0,0.4344
+LogisticRegression,1,10.76,350000.0,174413,0.617,0.3909,,,,
+LogisticRegression,2,8.61,350000.0,172905,0.638,0.4737,,,,
+LogisticRegression,3,9.08,350000.0,171018,0.6251,0.2872,,,,
+LogisticRegression,OOF_COMBINED,,,518336,0.629,0.3805,0.2179,0.3279,0.7829,0.4622
+RandomForest,1,19.97,350000.0,174413,0.6519,0.4265,,,,
+RandomForest,2,21.42,350000.0,172905,0.6459,0.4867,,,,
+RandomForest,3,21.44,350000.0,171018,0.6282,0.2932,,,,
+RandomForest,OOF_COMBINED,,,518336,0.6578,0.421,0.2554,0.3541,0.7246,0.4757
+HistGB,1,11.9,350000.0,174413,0.6461,0.4221,,,,
+HistGB,2,11.24,350000.0,172905,0.6346,0.4717,,,,
+HistGB,3,13.04,350000.0,171018,0.6214,0.2825,,,,
+HistGB,OOF_COMBINED,,,518336,0.6405,0.4005,0.2128,0.3365,0.7601,0.4665

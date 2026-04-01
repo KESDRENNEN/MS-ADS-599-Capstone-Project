@@ -1,0 +1,5 @@
+model,split,threshold,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,pr_auc,predicted_positive_rate,actual_positive_rate
+RandomForest,test,0.2554,0.7376,0.5738,0.2839,0.3208,0.3012,0.6289,0.271,0.1992,0.1763
+HistGB,test,0.2128,0.5888,0.5844,0.2322,0.5776,0.3312,0.6198,0.2669,0.4385,0.1763
+LogisticRegression,test,0.2179,0.4791,0.5732,0.2119,0.7187,0.3273,0.6182,0.2645,0.5981,0.1763
+DummyPrior,test,0.2419,0.1763,0.5,0.1763,1.0,0.2998,0.5,0.1763,1.0,0.1763

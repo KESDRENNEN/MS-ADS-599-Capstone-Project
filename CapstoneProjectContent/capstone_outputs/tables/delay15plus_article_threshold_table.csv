@@ -1,0 +1,5 @@
+model,selected_threshold,fit_sec_final,best_f1_threshold,oof_f1_at_best_f1,oof_pr_auc,oof_roc_auc
+RandomForest,0.2554,29.73,0.2554,0.4757,0.421,0.6578
+HistGB,0.2128,16.9,0.2128,0.4665,0.4005,0.6405
+LogisticRegression,0.2179,15.35,0.2179,0.4622,0.3805,0.629
+DummyPrior,0.2419,0.01,0.2419,0.4344,0.2564,0.4502
