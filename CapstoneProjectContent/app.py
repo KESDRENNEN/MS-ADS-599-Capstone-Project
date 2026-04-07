@@ -5,7 +5,8 @@ from pathlib import Path
 
 st.set_page_config(page_title="Flight Delay Risk Dashboard", layout="wide")
 
-DATA_PATH = Path("artifact_scored_flights.parquet")
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "artifact_scored_flights.parquet"
 
 @st.cache_data
 def load_data():
