@@ -2,9 +2,20 @@
 
 This project is a part of the ADS-599 course in the Applied Data Science Program at the University of San Diego.
 
+## Table of Contents
+- [Overview](#project-overview)
+- [Installation](#installation)
+- [Dashboard](#live-dashboard)
+- [Methods](#methods-used)
+- [Results](#results-summary)
+
 ## Live Dashboard
 
 https://ms-ads-599-capstone-project.streamlit.app
+
+### Preview
+
+<img width="1004" height="1023" alt="Screenshot 2026-04-14 210126" src="https://github.com/user-attachments/assets/ff76589a-d98c-4fde-8368-9d83a242872c" />
 
 ## Project Overview
 
