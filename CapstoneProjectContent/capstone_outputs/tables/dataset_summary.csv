@@ -1,0 +1,11 @@
+metric,value
+rows,2237913
+columns,116
+date_min,2024-01-01 00:00:00
+date_max,2024-12-31 00:00:00
+n_origins,10
+n_destinations,287
+n_routes,1316
+n_carriers,15
+delay_rate_non_missing,0.23170727
+cancel_rate,0.013327596
