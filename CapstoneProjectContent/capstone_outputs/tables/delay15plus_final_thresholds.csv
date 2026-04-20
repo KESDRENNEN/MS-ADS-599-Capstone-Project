@@ -1,5 +1,5 @@
 model,selected_threshold,fit_sec_final
-DummyPrior,0.2419,0.02
-LogisticRegression,0.2179,15.89
-RandomForest,0.2554,34.07
-HistGB,0.2128,17.8
+DummyPrior,0.2419,0.07
+LogisticRegression,0.2179,17.46
+RandomForest,0.2554,35.08
+HistGB,0.2128,27.43
